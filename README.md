@@ -4,16 +4,27 @@ of the cases in different parts of the world. Also the heatmap can show how the 
 scarcity of hospitalities available all around the world. The site has a self assessment test which can be taken and response can be produced within a day to direct the steps and precaution that can be taken
 
 ## Tools:
-FRONTEND - React.js
+Technology Used: MERN Stack
 
-BACKEND - Express.js, Node.js, MongoDB
-
-## To Get Started
-
+## Setting up the environment
+1. Clone the repo:
 `git clone https://github.com/Vrishabhsk/Health-Tracker.git`
-
+2. Change directory to client: 
+`cd client`
+3. Install dependencies for client-side: 
+`npm install`
+4. Change directory to server:
+`cd server`
+5. Install dependencies for server-side:
 `npm install`
 
+##  To Get Started
+1. Change directory to client:
 `cd client`
-
+2. Start React App:
 `npm start`
+3. Open new Terminal and cd to server:
+`cd server`
+4. Start the server using nodemon:
+`nodemon server.js`
+
